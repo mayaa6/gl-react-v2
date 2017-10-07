@@ -1,5 +1,8 @@
+const PropTypes = require('prop-types');
 const React = require("react");
-const { Component, PropTypes } = React;
+const {
+  Component
+} = React;
 const invariant = require("invariant");
 const { fill, resolve, build } = require("./data");
 const Shaders = require("./Shaders");
