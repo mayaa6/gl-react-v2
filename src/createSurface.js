@@ -1,7 +1,7 @@
+const PropTypes = require('prop-types');
 const React = require("react");
 const {
-  Component,
-  PropTypes
+  Component
 } = React;
 const invariant = require("invariant");
 const { fill, resolve, build } = require("./data");
